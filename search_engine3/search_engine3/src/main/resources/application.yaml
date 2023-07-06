@@ -1,0 +1,53 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    username: root
+    password: 'SpringApp1!'
+    url: jdbc:mysql://localhost:3306/search_engine?useSSL=false&requireSSL=false&allowPublicKeyRetrieval=true
+
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: update
+      generate-ddl: true
+    #  show-sql: true
+    open-in-view: true
+  # logs
+  logging:
+    level:
+      org.hibernate.SQL: info
+
+indexing-settings:
+  sites:
+    - url: https://jazzesse.ru/
+      name: ДжазЭссе
+    - url: https://yandex.com
+      name: yandex
+    - url: https://www.google.com/
+      name: google.com
+    - url: https://www.svetlovka.ru/
+      name: svetlovka.ru
+    - url: https://metanit.com/
+      name: metanit.com
+    - url: https://www.dimonvideo.ru
+      name: DimonVideo
+    - url: http://www.playback.ru
+      name: PlayBack.Ru
+
+
+app:
+  credentials:
+    user:
+      name: "user"
+      password: "user"
+    admin:
+      name: "root"
+      password: "root"
+
+logging:
+  level:
+    org.springframework.web: DEBUG

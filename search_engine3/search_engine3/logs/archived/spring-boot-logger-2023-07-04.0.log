@@ -1,0 +1,508 @@
+2023-07-04 15:22:46,814 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application using Java 20.0.1 on MacBook-Pro-4 with PID 21174 (/Users/iremux/Desktop/newsearch/search_engine/target/classes started by root in /Users/iremux/Desktop/newsearch/search_engine)
+2023-07-04 15:22:46,815 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-04 15:22:47,127 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-04 15:22:47,150 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 19 ms. Found 4 JPA repository interfaces.
+2023-07-04 15:22:47,400 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-07-04 15:22:47,405 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-07-04 15:22:47,405 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-07-04 15:22:47,405 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-07-04 15:22:47,460 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-07-04 15:22:47,461 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 625 ms
+2023-07-04 15:22:47,545 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-04 15:22:47,567 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.11.Final
+2023-07-04 15:22:47,631 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-04 15:22:47,670 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-07-04 15:22:47,750 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-07-04 15:22:47,757 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-04 15:22:48,082 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-04 15:22:48,087 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-04 15:22:48,775 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5eb9bf7d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@64f613da, org.springframework.security.web.context.SecurityContextPersistenceFilter@43dddfdd, org.springframework.security.web.header.HeaderWriterFilter@15a0f9, org.springframework.security.web.authentication.logout.LogoutFilter@554e9509, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@34d3409d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@325e03b, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2f64f99f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5773f83d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7fcfe065, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@16c1d11, org.springframework.security.web.session.SessionManagementFilter@7cc3a7f7, org.springframework.security.web.access.ExceptionTranslationFilter@571c7572, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7dbbf730]
+2023-07-04 15:22:48,902 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2023-07-04 15:22:49,196 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-07-04 15:22:49,204 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-04 15:22:49,210 INFO org.springframework.boot.StartupInfoLogger [main] Started Application in 2.609 seconds (JVM running for 2.754)
+2023-07-04 15:22:52,646 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-04 15:22:52,646 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-07-04 15:22:52,648 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-07-04 15:23:10,778 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-04 15:23:10,779 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-07-04 15:23:10,787 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-07-04 15:23:25,209 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application using Java 20.0.1 on MacBook-Pro-4 with PID 21288 (/Users/iremux/Desktop/newsearch/search_engine/target/classes started by root in /Users/iremux/Desktop/newsearch/search_engine)
+2023-07-04 15:23:25,210 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-04 15:23:25,494 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-04 15:23:25,516 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 18 ms. Found 4 JPA repository interfaces.
+2023-07-04 15:23:25,755 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-07-04 15:23:25,759 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-07-04 15:23:25,759 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-07-04 15:23:25,759 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-07-04 15:23:25,810 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-07-04 15:23:25,811 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 582 ms
+2023-07-04 15:23:25,892 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-04 15:23:25,912 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.11.Final
+2023-07-04 15:23:25,975 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-04 15:23:26,010 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-07-04 15:23:26,081 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-07-04 15:23:26,087 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-04 15:23:26,403 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-04 15:23:26,408 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-04 15:23:27,089 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2fc40856, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5543d800, org.springframework.security.web.context.SecurityContextPersistenceFilter@237c8718, org.springframework.security.web.header.HeaderWriterFilter@7267006e, org.springframework.security.web.authentication.logout.LogoutFilter@1ac2829e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2f64f99f, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1c3a64b6, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1e033801, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3911fec8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1e38e8b6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@58e4aa67, org.springframework.security.web.session.SessionManagementFilter@7d2baa56, org.springframework.security.web.access.ExceptionTranslationFilter@43dddfdd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@515fff35]
+2023-07-04 15:23:27,217 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2023-07-04 15:23:27,514 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-07-04 15:23:27,522 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-04 15:23:27,527 INFO org.springframework.boot.StartupInfoLogger [main] Started Application in 2.507 seconds (JVM running for 2.635)
+2023-07-04 15:23:31,684 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-04 15:23:31,684 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-07-04 15:23:31,685 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-07-04 15:24:14,815 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-04 15:24:14,816 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-07-04 15:24:14,822 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-07-04 15:24:19,361 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application using Java 20.0.1 on MacBook-Pro-4 with PID 21446 (/Users/iremux/Desktop/newsearch/search_engine/target/classes started by root in /Users/iremux/Desktop/newsearch/search_engine)
+2023-07-04 15:24:19,362 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-04 15:24:19,660 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-04 15:24:19,682 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 18 ms. Found 4 JPA repository interfaces.
+2023-07-04 15:24:19,925 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-07-04 15:24:19,929 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-07-04 15:24:19,930 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-07-04 15:24:19,930 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-07-04 15:24:19,973 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-07-04 15:24:19,973 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 589 ms
+2023-07-04 15:24:20,056 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-04 15:24:20,079 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.11.Final
+2023-07-04 15:24:20,140 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-04 15:24:20,176 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-07-04 15:24:20,245 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-07-04 15:24:20,252 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-04 15:24:20,570 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-04 15:24:20,574 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-04 15:24:21,269 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5d01a2eb, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6fe337a5, org.springframework.security.web.context.SecurityContextPersistenceFilter@1c3a64b6, org.springframework.security.web.header.HeaderWriterFilter@5773f83d, org.springframework.security.web.authentication.logout.LogoutFilter@4e25282d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@58e4aa67, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4c12f54a, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7d60bd5a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@20e9c165, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@eabecf5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@43312512, org.springframework.security.web.session.SessionManagementFilter@7d2baa56, org.springframework.security.web.access.ExceptionTranslationFilter@43dddfdd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2fc40856]
+2023-07-04 15:24:21,398 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2023-07-04 15:24:21,681 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-07-04 15:24:21,689 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-04 15:24:21,695 INFO org.springframework.boot.StartupInfoLogger [main] Started Application in 2.52 seconds (JVM running for 2.658)
+2023-07-04 15:24:24,285 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-04 15:24:24,286 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-07-04 15:24:24,287 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-07-04 15:32:49,981 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-04 15:32:49,984 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-07-04 15:32:49,992 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-07-04 15:32:58,633 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application using Java 20.0.1 on MacBook-Pro-4.local with PID 22656 (/Users/iremux/Desktop/newsearch/search_engine/target/classes started by root in /Users/iremux/Desktop/newsearch/search_engine)
+2023-07-04 15:32:58,634 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-04 15:32:58,963 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-04 15:32:58,985 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 19 ms. Found 4 JPA repository interfaces.
+2023-07-04 15:32:59,234 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-07-04 15:32:59,239 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-07-04 15:32:59,239 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-07-04 15:32:59,239 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-07-04 15:32:59,294 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-07-04 15:32:59,295 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 642 ms
+2023-07-04 15:32:59,378 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-04 15:32:59,401 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.11.Final
+2023-07-04 15:32:59,464 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-04 15:32:59,502 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-07-04 15:32:59,597 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-07-04 15:32:59,605 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-04 15:32:59,918 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-04 15:32:59,923 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-04 15:33:00,632 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@37ab1b10, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@55d87b73, org.springframework.security.web.context.SecurityContextPersistenceFilter@acea29e, org.springframework.security.web.header.HeaderWriterFilter@4c12f54a, org.springframework.security.web.authentication.logout.LogoutFilter@412440c1, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7a2fd94c, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4946dfde, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@618e7761, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@152dbf8e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@34ea86ff, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5b643d6e, org.springframework.security.web.session.SessionManagementFilter@42a7e7e1, org.springframework.security.web.access.ExceptionTranslationFilter@55e88bc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@655f92a1]
+2023-07-04 15:33:00,765 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2023-07-04 15:33:01,067 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-07-04 15:33:01,076 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-04 15:33:01,081 INFO org.springframework.boot.StartupInfoLogger [main] Started Application in 2.722 seconds (JVM running for 2.865)
+2023-07-04 15:33:02,999 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-04 15:33:02,999 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-07-04 15:33:03,000 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-07-04 15:56:29,204 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-04 15:56:29,208 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-07-04 15:56:29,218 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-07-04 15:56:36,917 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application using Java 20.0.1 on MacBook-Pro-4 with PID 25508 (/Users/iremux/Desktop/newsearch/search_engine/target/classes started by root in /Users/iremux/Desktop/newsearch/search_engine)
+2023-07-04 15:56:36,918 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-04 15:56:37,215 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-04 15:56:37,237 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 19 ms. Found 4 JPA repository interfaces.
+2023-07-04 15:56:37,485 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-07-04 15:56:37,490 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-07-04 15:56:37,490 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-07-04 15:56:37,490 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-07-04 15:56:37,544 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-07-04 15:56:37,544 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 607 ms
+2023-07-04 15:56:37,627 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-04 15:56:37,649 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.11.Final
+2023-07-04 15:56:37,713 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-04 15:56:37,752 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-07-04 15:56:37,843 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-07-04 15:56:37,852 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-04 15:56:38,169 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-04 15:56:38,173 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-04 15:56:38,862 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3fdede3a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@41948c13, org.springframework.security.web.context.SecurityContextPersistenceFilter@d641499, org.springframework.security.web.header.HeaderWriterFilter@7aa1fb0e, org.springframework.security.web.authentication.logout.LogoutFilter@af007d6, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@792b9dd3, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@57806346, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3085befb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@44e0c3d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@412440c1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@62264d4f, org.springframework.security.web.session.SessionManagementFilter@4b74a67a, org.springframework.security.web.access.ExceptionTranslationFilter@77972964, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@10bcbbce]
+2023-07-04 15:56:38,987 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2023-07-04 15:56:39,295 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-07-04 15:56:39,305 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-04 15:56:39,310 INFO org.springframework.boot.StartupInfoLogger [main] Started Application in 2.609 seconds (JVM running for 2.752)
+2023-07-04 15:56:41,994 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-04 15:56:41,994 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-07-04 15:56:41,996 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2023-07-04 16:00:06,019 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-04 16:00:06,022 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-07-04 16:00:06,029 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-07-04 16:00:10,467 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application using Java 20.0.1 on MacBook-Pro-4 with PID 26003 (/Users/iremux/Desktop/newsearch/search_engine/target/classes started by root in /Users/iremux/Desktop/newsearch/search_engine)
+2023-07-04 16:00:10,468 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-04 16:00:10,763 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-04 16:00:10,785 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 19 ms. Found 4 JPA repository interfaces.
+2023-07-04 16:00:11,025 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-07-04 16:00:11,037 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-07-04 16:00:11,037 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-07-04 16:00:11,037 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-07-04 16:00:11,081 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-07-04 16:00:11,081 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 594 ms
+2023-07-04 16:00:11,163 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-04 16:00:11,186 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.11.Final
+2023-07-04 16:00:11,246 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-04 16:00:11,281 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-07-04 16:00:11,353 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-07-04 16:00:11,360 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-04 16:00:11,678 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-04 16:00:11,683 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-04 16:00:12,367 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6fe337a5, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7d60bd5a, org.springframework.security.web.context.SecurityContextPersistenceFilter@761b9314, org.springframework.security.web.header.HeaderWriterFilter@59bbf82e, org.springframework.security.web.authentication.logout.LogoutFilter@3b29d36c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@57ed8f95, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@334d825c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@43312512, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@eabecf5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@417b3642, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@13f7c165, org.springframework.security.web.session.SessionManagementFilter@43e2b8da, org.springframework.security.web.access.ExceptionTranslationFilter@3911fec8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5543d800]
+2023-07-04 16:00:12,491 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2023-07-04 16:00:12,778 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-07-04 16:00:12,786 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-04 16:00:12,792 INFO org.springframework.boot.StartupInfoLogger [main] Started Application in 2.515 seconds (JVM running for 2.652)
+2023-07-04 16:00:16,296 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-04 16:00:16,297 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-07-04 16:00:16,298 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-07-04 16:03:23,816 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-04 16:03:23,819 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-07-04 16:03:23,828 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-07-04 16:30:31,116 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application using Java 20.0.1 on MacBook-Pro-4.local with PID 29962 (/Users/iremux/Desktop/newsearch/search_engine/target/classes started by root in /Users/iremux/Desktop/newsearch/search_engine)
+2023-07-04 16:30:31,118 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-04 16:30:31,420 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-04 16:30:31,442 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 19 ms. Found 4 JPA repository interfaces.
+2023-07-04 16:30:31,689 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-07-04 16:30:31,694 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-07-04 16:30:31,694 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-07-04 16:30:31,694 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-07-04 16:30:31,746 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-07-04 16:30:31,746 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 610 ms
+2023-07-04 16:30:31,830 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-04 16:30:31,852 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.11.Final
+2023-07-04 16:30:31,918 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-04 16:30:31,957 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-07-04 16:30:32,054 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-07-04 16:30:32,063 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-04 16:30:32,401 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-04 16:30:32,406 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-04 16:30:33,117 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@41948c13, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3085befb, org.springframework.security.web.context.SecurityContextPersistenceFilter@2184962c, org.springframework.security.web.header.HeaderWriterFilter@5ce41f1f, org.springframework.security.web.authentication.logout.LogoutFilter@a20898c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@cbc3bf3, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@40416321, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@62264d4f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@412440c1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@36c45149, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2bc0603f, org.springframework.security.web.session.SessionManagementFilter@2259d54f, org.springframework.security.web.access.ExceptionTranslationFilter@44e0c3d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@27234b7c]
+2023-07-04 16:30:33,247 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2023-07-04 16:30:33,544 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-07-04 16:30:33,552 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-04 16:30:33,558 INFO org.springframework.boot.StartupInfoLogger [main] Started Application in 2.846 seconds (JVM running for 2.985)
+2023-07-04 16:30:37,900 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-04 16:30:37,901 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-07-04 16:30:37,902 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-07-04 16:34:56,765 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-04 16:34:56,768 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-07-04 16:34:56,775 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-07-04 16:35:18,730 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application using Java 20.0.1 on MacBook-Pro-4.local with PID 30907 (/Users/iremux/Desktop/newsearch/search_engine/target/classes started by root in /Users/iremux/Desktop/newsearch/search_engine)
+2023-07-04 16:35:18,731 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-04 16:35:19,031 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-04 16:35:19,053 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 19 ms. Found 4 JPA repository interfaces.
+2023-07-04 16:35:19,302 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-07-04 16:35:19,307 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-07-04 16:35:19,307 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-07-04 16:35:19,307 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-07-04 16:35:19,359 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-07-04 16:35:19,360 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 611 ms
+2023-07-04 16:35:19,442 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-04 16:35:19,464 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.11.Final
+2023-07-04 16:35:19,529 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-04 16:35:19,568 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-07-04 16:35:19,650 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-07-04 16:35:19,658 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-04 16:35:19,979 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-04 16:35:19,984 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-04 16:35:20,682 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@69f24965, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4eab9aec, org.springframework.security.web.context.SecurityContextPersistenceFilter@40416321, org.springframework.security.web.header.HeaderWriterFilter@36c45149, org.springframework.security.web.authentication.logout.LogoutFilter@18fa5af6, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2bc0603f, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@28d7bd6b, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5a45c218, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@289cf7db, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7c523bdd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2c6efee3, org.springframework.security.web.session.SessionManagementFilter@201b52f7, org.springframework.security.web.access.ExceptionTranslationFilter@4d9bccfe, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@41948c13]
+2023-07-04 16:35:20,810 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2023-07-04 16:35:21,104 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-07-04 16:35:21,113 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-04 16:35:21,118 INFO org.springframework.boot.StartupInfoLogger [main] Started Application in 2.78 seconds (JVM running for 2.92)
+2023-07-04 16:35:26,256 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-04 16:35:26,256 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-07-04 16:35:26,257 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-07-04 16:43:18,451 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-04 16:43:18,454 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-07-04 16:43:18,462 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-07-04 16:44:08,810 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application using Java 20.0.1 on MacBook-Pro-4.local with PID 32222 (/Users/iremux/Desktop/newsearch/search_engine/target/classes started by root in /Users/iremux/Desktop/newsearch/search_engine)
+2023-07-04 16:44:08,811 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-04 16:44:09,112 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-04 16:44:09,136 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 21 ms. Found 4 JPA repository interfaces.
+2023-07-04 16:44:09,388 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-07-04 16:44:09,393 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-07-04 16:44:09,393 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-07-04 16:44:09,393 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-07-04 16:44:09,438 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-07-04 16:44:09,438 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 609 ms
+2023-07-04 16:44:09,463 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'resourceUrlEncodingFilter' configured for use
+2023-07-04 16:44:09,521 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-04 16:44:09,547 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.11.Final
+2023-07-04 16:44:09,608 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-04 16:44:09,646 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-07-04 16:44:09,747 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-07-04 16:44:09,756 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-04 16:44:10,085 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-04 16:44:10,090 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-04 16:44:10,784 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@637c8632, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@156eeff1, org.springframework.security.web.context.SecurityContextPersistenceFilter@334d825c, org.springframework.security.web.header.HeaderWriterFilter@417b3642, org.springframework.security.web.authentication.logout.LogoutFilter@1b82f62a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@13f7c165, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4bcf08ae, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@34001c5d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@e2d9923, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@554e9509, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@30e15628, org.springframework.security.web.session.SessionManagementFilter@55e88bc, org.springframework.security.web.access.ExceptionTranslationFilter@20e9c165, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6fe337a5]
+2023-07-04 16:44:10,905 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-07-04 16:44:10,922 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2023-07-04 16:44:10,948 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 12 mappings in 'requestMappingHandlerMapping'
+2023-07-04 16:44:11,124 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-07-04 16:44:11,132 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 3 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-07-04 16:44:11,205 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-07-04 16:44:11,214 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-04 16:44:11,219 INFO org.springframework.boot.StartupInfoLogger [main] Started Application in 2.785 seconds (JVM running for 2.937)
+2023-07-04 16:44:20,779 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-04 16:44:20,780 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-07-04 16:44:20,780 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected StandardServletMultipartResolver
+2023-07-04 16:44:20,780 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected AcceptHeaderLocaleResolver
+2023-07-04 16:44:20,780 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected FixedThemeResolver
+2023-07-04 16:44:20,781 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@b4c89b6
+2023-07-04 16:44:20,782 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected org.springframework.web.servlet.support.SessionFlashMapManager@112a50a1
+2023-07-04 16:44:20,782 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-07-04 16:44:20,782 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2023-07-04 16:44:29,742 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-4] GET "/", parameters={}
+2023-07-04 16:44:29,744 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-4] Mapped to searchengine.controllers.DefaultController#index()
+2023-07-04 16:44:29,754 DEBUG org.springframework.web.servlet.view.ContentNegotiatingViewResolver [http-nio-8080-exec-4] Selected 'text/html' given [text/html, application/xhtml+xml, application/xml;q=0.9, */*;q=0.8]
+2023-07-04 16:44:29,819 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-4] Completed 200 OK
+2023-07-04 16:44:29,830 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-5] GET "/assets/css/fonts.css?v=82368483", parameters={masked}
+2023-07-04 16:44:29,833 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-6] GET "/assets/css/basic.css?v=82368483", parameters={masked}
+2023-07-04 16:44:29,833 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-7] GET "/assets/css/extra.css?v=82368483", parameters={masked}
+2023-07-04 16:44:29,834 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-8] GET "/assets/js/scripts.js?v=38874865", parameters={masked}
+2023-07-04 16:44:29,834 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-9] GET "/assets/plg/jQuery/jquery-3.5.1.min.js", parameters={}
+2023-07-04 16:44:29,835 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-7] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-07-04 16:44:29,835 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-9] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-07-04 16:44:29,835 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-5] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-07-04 16:44:29,835 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-8] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-07-04 16:44:29,836 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-6] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-07-04 16:44:29,841 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-7] Completed 200 OK
+2023-07-04 16:44:29,841 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-6] Completed 200 OK
+2023-07-04 16:44:29,841 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-5] Completed 200 OK
+2023-07-04 16:44:29,841 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-8] Completed 200 OK
+2023-07-04 16:44:29,841 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-9] Completed 200 OK
+2023-07-04 16:44:29,843 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-10] GET "/assets/img/icons/dashboard.svg", parameters={}
+2023-07-04 16:44:29,843 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-1] GET "/assets/img/icons/management.svg", parameters={}
+2023-07-04 16:44:29,844 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-1] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-07-04 16:44:29,844 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-10] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-07-04 16:44:29,845 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed 200 OK
+2023-07-04 16:44:29,845 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-10] Completed 200 OK
+2023-07-04 16:44:29,846 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-2] GET "/assets/img/icons/search.svg", parameters={}
+2023-07-04 16:44:29,847 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-2] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-07-04 16:44:29,848 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed 200 OK
+2023-07-04 16:44:29,855 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-3] GET "/assets/img/icons/arrow_hide.svg", parameters={}
+2023-07-04 16:44:29,855 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-3] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-07-04 16:44:29,856 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-3] Completed 200 OK
+2023-07-04 16:44:29,859 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-4] GET "/api/statistics", parameters={}
+2023-07-04 16:44:29,859 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-4] Mapped to searchengine.controllers.SearchEngineController#statistics()
+2023-07-04 16:44:29,972 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-4] Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-07-04 16:44:29,976 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-4] Writing [StatisticsResponse(result=true, statistics=StatisticsData(total=StatisticsTotal(sites=5, pages=75, l (truncated)...]
+2023-07-04 16:44:29,990 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-4] Completed 200 OK
+2023-07-04 16:44:29,995 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-7] GET "/assets/img/icons/checked.svg", parameters={}
+2023-07-04 16:44:29,996 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-7] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-07-04 16:44:29,998 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-7] Completed 200 OK
+2023-07-04 16:44:29,998 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-6] GET "/assets/img/icons/pause.svg", parameters={}
+2023-07-04 16:44:29,999 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-6] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-07-04 16:44:30,001 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-6] Completed 200 OK
+2023-07-04 16:44:32,783 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-5] GET "/api/search?query=&offset=0&limit=10", parameters={masked}
+2023-07-04 16:44:32,784 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-5] Mapped to searchengine.controllers.SearchEngineController#search(String, String, int, int)
+2023-07-04 16:44:32,808 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-5] Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-07-04 16:44:32,809 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-5] Writing [StatisticsRequest(gotResult=false, error=Empty request)]
+2023-07-04 16:44:32,811 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-5] Completed 400 BAD_REQUEST
+2023-07-04 16:46:31,286 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-04 16:46:31,289 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-07-04 16:46:31,296 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-07-04 16:47:02,565 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application using Java 20.0.1 on MacBook-Pro-4.local with PID 32729 (/Users/iremux/Desktop/newsearch/search_engine/target/classes started by root in /Users/iremux/Desktop/newsearch/search_engine)
+2023-07-04 16:47:02,567 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-04 16:47:02,871 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-04 16:47:02,894 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 20 ms. Found 4 JPA repository interfaces.
+2023-07-04 16:47:03,144 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-07-04 16:47:03,150 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-07-04 16:47:03,150 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-07-04 16:47:03,150 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-07-04 16:47:03,206 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-07-04 16:47:03,206 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 621 ms
+2023-07-04 16:47:03,234 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'resourceUrlEncodingFilter' configured for use
+2023-07-04 16:47:03,297 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-04 16:47:03,320 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.11.Final
+2023-07-04 16:47:03,389 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-04 16:47:03,434 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-07-04 16:47:03,507 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-07-04 16:47:03,514 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-04 16:47:03,839 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-04 16:47:03,845 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-04 16:47:04,536 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5eb9bf7d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@64f613da, org.springframework.security.web.context.SecurityContextPersistenceFilter@6dbdeb69, org.springframework.security.web.header.HeaderWriterFilter@745c8a04, org.springframework.security.web.authentication.logout.LogoutFilter@554e9509, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@34d3409d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@325e03b, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2f64f99f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5773f83d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7fcfe065, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@16c1d11, org.springframework.security.web.session.SessionManagementFilter@7a13ad55, org.springframework.security.web.access.ExceptionTranslationFilter@22c0344e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7dbbf730]
+2023-07-04 16:47:04,651 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-07-04 16:47:04,666 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2023-07-04 16:47:04,691 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 12 mappings in 'requestMappingHandlerMapping'
+2023-07-04 16:47:04,888 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-07-04 16:47:04,896 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 3 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-07-04 16:47:04,971 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-07-04 16:47:04,980 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-04 16:47:04,985 INFO org.springframework.boot.StartupInfoLogger [main] Started Application in 2.604 seconds (JVM running for 2.739)
+2023-07-04 16:47:11,139 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-04 16:47:11,139 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-07-04 16:47:11,139 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected StandardServletMultipartResolver
+2023-07-04 16:47:11,140 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected AcceptHeaderLocaleResolver
+2023-07-04 16:47:11,140 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected FixedThemeResolver
+2023-07-04 16:47:11,141 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1690929
+2023-07-04 16:47:11,141 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected org.springframework.web.servlet.support.SessionFlashMapManager@16f62062
+2023-07-04 16:47:11,141 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-07-04 16:47:11,141 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2023-07-04 16:47:20,377 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-5] GET "/", parameters={}
+2023-07-04 16:47:20,380 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-5] Mapped to searchengine.controllers.DefaultController#index()
+2023-07-04 16:47:20,390 DEBUG org.springframework.web.servlet.view.ContentNegotiatingViewResolver [http-nio-8080-exec-5] Selected 'text/html' given [text/html, application/xhtml+xml, application/xml;q=0.9, */*;q=0.8]
+2023-07-04 16:47:20,455 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-5] Completed 200 OK
+2023-07-04 16:47:20,463 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-4] GET "/assets/css/fonts.css?v=82368483", parameters={masked}
+2023-07-04 16:47:20,465 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-7] GET "/assets/css/basic.css?v=82368483", parameters={masked}
+2023-07-04 16:47:20,465 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-8] GET "/assets/css/extra.css?v=82368483", parameters={masked}
+2023-07-04 16:47:20,465 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-9] GET "/assets/js/scripts.js?v=38874865", parameters={masked}
+2023-07-04 16:47:20,465 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-3] GET "/assets/plg/jQuery/jquery-3.5.1.min.js", parameters={}
+2023-07-04 16:47:20,467 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-4] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-07-04 16:47:20,467 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-8] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-07-04 16:47:20,467 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-9] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-07-04 16:47:20,467 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-7] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-07-04 16:47:20,467 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-3] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-07-04 16:47:20,474 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-8] Completed 200 OK
+2023-07-04 16:47:20,474 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-7] Completed 200 OK
+2023-07-04 16:47:20,474 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-4] Completed 200 OK
+2023-07-04 16:47:20,474 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-3] Completed 200 OK
+2023-07-04 16:47:20,474 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-9] Completed 200 OK
+2023-07-04 16:47:20,476 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-10] GET "/assets/img/icons/dashboard.svg", parameters={}
+2023-07-04 16:47:20,476 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-1] GET "/assets/img/icons/management.svg", parameters={}
+2023-07-04 16:47:20,476 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-10] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-07-04 16:47:20,476 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-1] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-07-04 16:47:20,478 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed 200 OK
+2023-07-04 16:47:20,478 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-10] Completed 200 OK
+2023-07-04 16:47:20,480 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-2] GET "/assets/img/icons/search.svg", parameters={}
+2023-07-04 16:47:20,481 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-2] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-07-04 16:47:20,482 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-6] GET "/assets/img/icons/arrow_hide.svg", parameters={}
+2023-07-04 16:47:20,482 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed 200 OK
+2023-07-04 16:47:20,483 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-6] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-07-04 16:47:20,485 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-5] GET "/api/statistics", parameters={}
+2023-07-04 16:47:20,485 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-6] Completed 200 OK
+2023-07-04 16:47:20,485 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-5] Mapped to searchengine.controllers.SearchEngineController#statistics()
+2023-07-04 16:47:20,601 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-5] Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-07-04 16:47:20,605 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-5] Writing [StatisticsResponse(result=true, statistics=StatisticsData(total=StatisticsTotal(sites=5, pages=75, l (truncated)...]
+2023-07-04 16:47:20,613 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-5] Completed 200 OK
+2023-07-04 16:47:20,616 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-8] GET "/assets/img/icons/checked.svg", parameters={}
+2023-07-04 16:47:20,617 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-8] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-07-04 16:47:20,618 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-4] GET "/assets/img/icons/pause.svg", parameters={}
+2023-07-04 16:47:20,619 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-4] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-07-04 16:47:20,619 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-8] Completed 200 OK
+2023-07-04 16:47:20,620 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-4] Completed 200 OK
+2023-07-04 16:47:27,003 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-3] GET "/api/search?query=&offset=0&limit=10", parameters={masked}
+2023-07-04 16:47:27,004 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-3] Mapped to searchengine.controllers.SearchEngineController#search(String, String, int, int)
+2023-07-04 16:47:27,025 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-3] Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-07-04 16:47:27,026 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-3] Writing [StatisticsRequest(gotResult=false, error=Empty request)]
+2023-07-04 16:47:27,027 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-3] Completed 200 OK
+2023-07-04 16:47:27,917 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-9] GET "/api/search?query=&offset=0&limit=10", parameters={masked}
+2023-07-04 16:47:27,918 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-9] Mapped to searchengine.controllers.SearchEngineController#search(String, String, int, int)
+2023-07-04 16:47:27,920 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-9] Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-07-04 16:47:27,920 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-9] Writing [StatisticsRequest(gotResult=false, error=Empty request)]
+2023-07-04 16:47:27,921 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-9] Completed 200 OK
+2023-07-04 16:47:28,583 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-7] GET "/api/search?query=&offset=0&limit=10", parameters={masked}
+2023-07-04 16:47:28,584 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-7] Mapped to searchengine.controllers.SearchEngineController#search(String, String, int, int)
+2023-07-04 16:47:28,586 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-7] Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-07-04 16:47:28,586 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-7] Writing [StatisticsRequest(gotResult=false, error=Empty request)]
+2023-07-04 16:47:28,588 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-7] Completed 200 OK
+2023-07-04 16:47:29,099 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-1] GET "/api/search?query=&offset=0&limit=10", parameters={masked}
+2023-07-04 16:47:29,100 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-1] Mapped to searchengine.controllers.SearchEngineController#search(String, String, int, int)
+2023-07-04 16:47:29,102 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-1] Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-07-04 16:47:29,102 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-1] Writing [StatisticsRequest(gotResult=false, error=Empty request)]
+2023-07-04 16:47:29,104 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed 200 OK
+2023-07-04 16:47:34,210 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-04 16:47:34,211 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-07-04 16:47:34,217 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-07-04 16:47:48,820 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application using Java 20.0.1 on MacBook-Pro-4.local with PID 32861 (/Users/iremux/Desktop/newsearch/search_engine/target/classes started by root in /Users/iremux/Desktop/newsearch/search_engine)
+2023-07-04 16:47:48,822 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-04 16:47:49,120 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-04 16:47:49,144 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 21 ms. Found 4 JPA repository interfaces.
+2023-07-04 16:47:49,399 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-07-04 16:47:49,404 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-07-04 16:47:49,404 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-07-04 16:47:49,404 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-07-04 16:47:49,459 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-07-04 16:47:49,459 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 618 ms
+2023-07-04 16:47:49,487 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'resourceUrlEncodingFilter' configured for use
+2023-07-04 16:47:49,548 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-04 16:47:49,571 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.11.Final
+2023-07-04 16:47:49,639 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-04 16:47:49,679 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-07-04 16:47:49,756 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-07-04 16:47:49,765 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-04 16:47:50,106 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-04 16:47:50,112 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-04 16:47:50,813 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1e033801, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@58e4aa67, org.springframework.security.web.context.SecurityContextPersistenceFilter@3911fec8, org.springframework.security.web.header.HeaderWriterFilter@7d2baa56, org.springframework.security.web.authentication.logout.LogoutFilter@4946dfde, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@123d0816, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@20e9c165, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@57ed8f95, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@59bbf82e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@75b3ef1a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1c25deb0, org.springframework.security.web.session.SessionManagementFilter@23b087c3, org.springframework.security.web.access.ExceptionTranslationFilter@5773f83d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@64f613da]
+2023-07-04 16:47:50,946 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-07-04 16:47:50,962 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2023-07-04 16:47:50,990 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 12 mappings in 'requestMappingHandlerMapping'
+2023-07-04 16:47:51,182 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-07-04 16:47:51,193 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 3 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-07-04 16:47:51,279 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-07-04 16:47:51,288 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-04 16:47:51,294 INFO org.springframework.boot.StartupInfoLogger [main] Started Application in 2.657 seconds (JVM running for 2.791)
+2023-07-04 16:47:55,781 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-04 16:47:55,781 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-07-04 16:47:55,781 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected StandardServletMultipartResolver
+2023-07-04 16:47:55,782 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected AcceptHeaderLocaleResolver
+2023-07-04 16:47:55,782 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected FixedThemeResolver
+2023-07-04 16:47:55,783 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2cdb53d6
+2023-07-04 16:47:55,783 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected org.springframework.web.servlet.support.SessionFlashMapManager@112a50a1
+2023-07-04 16:47:55,783 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-07-04 16:47:55,783 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2023-07-04 16:48:02,067 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-4] GET "/", parameters={}
+2023-07-04 16:48:02,069 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-4] Mapped to searchengine.controllers.DefaultController#index()
+2023-07-04 16:48:02,080 DEBUG org.springframework.web.servlet.view.ContentNegotiatingViewResolver [http-nio-8080-exec-4] Selected 'text/html' given [text/html, application/xhtml+xml, application/xml;q=0.9, */*;q=0.8]
+2023-07-04 16:48:02,151 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-4] Completed 200 OK
+2023-07-04 16:48:02,162 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-5] GET "/assets/css/fonts.css?v=82368483", parameters={masked}
+2023-07-04 16:48:02,164 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-7] GET "/assets/css/extra.css?v=82368483", parameters={masked}
+2023-07-04 16:48:02,164 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-6] GET "/assets/css/basic.css?v=82368483", parameters={masked}
+2023-07-04 16:48:02,164 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-9] GET "/assets/plg/jQuery/jquery-3.5.1.min.js", parameters={}
+2023-07-04 16:48:02,164 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-8] GET "/assets/js/scripts.js?v=38874865", parameters={masked}
+2023-07-04 16:48:02,166 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-6] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-07-04 16:48:02,166 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-7] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-07-04 16:48:02,166 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-5] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-07-04 16:48:02,166 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-9] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-07-04 16:48:02,166 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-8] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-07-04 16:48:02,174 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-8] Completed 200 OK
+2023-07-04 16:48:02,174 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-9] Completed 200 OK
+2023-07-04 16:48:02,174 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-6] Completed 200 OK
+2023-07-04 16:48:02,174 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-5] Completed 200 OK
+2023-07-04 16:48:02,174 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-7] Completed 200 OK
+2023-07-04 16:48:02,176 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-10] GET "/assets/img/icons/dashboard.svg", parameters={}
+2023-07-04 16:48:02,176 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-1] GET "/assets/img/icons/management.svg", parameters={}
+2023-07-04 16:48:02,177 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-10] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-07-04 16:48:02,177 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-1] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-07-04 16:48:02,179 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed 200 OK
+2023-07-04 16:48:02,179 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-10] Completed 200 OK
+2023-07-04 16:48:02,181 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-2] GET "/assets/img/icons/search.svg", parameters={}
+2023-07-04 16:48:02,182 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-2] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-07-04 16:48:02,183 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-3] GET "/assets/img/icons/arrow_hide.svg", parameters={}
+2023-07-04 16:48:02,183 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed 200 OK
+2023-07-04 16:48:02,184 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-3] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-07-04 16:48:02,186 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-3] Completed 200 OK
+2023-07-04 16:48:02,187 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-4] GET "/api/statistics", parameters={}
+2023-07-04 16:48:02,187 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-4] Mapped to searchengine.controllers.SearchEngineController#statistics()
+2023-07-04 16:48:02,313 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-4] Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-07-04 16:48:02,317 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-4] Writing [StatisticsResponse(result=true, statistics=StatisticsData(total=StatisticsTotal(sites=5, pages=75, l (truncated)...]
+2023-07-04 16:48:02,327 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-4] Completed 200 OK
+2023-07-04 16:48:02,330 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-8] GET "/assets/img/icons/checked.svg", parameters={}
+2023-07-04 16:48:02,331 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-8] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-07-04 16:48:02,332 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-9] GET "/assets/img/icons/pause.svg", parameters={}
+2023-07-04 16:48:02,332 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-8] Completed 200 OK
+2023-07-04 16:48:02,333 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-9] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-07-04 16:48:02,335 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-9] Completed 200 OK
+2023-07-04 16:48:06,951 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-6] GET "/api/search?query=&offset=0&limit=10", parameters={masked}
+2023-07-04 16:48:06,952 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-6] Mapped to searchengine.controllers.SearchEngineController#search(String, String, int, int)
+2023-07-04 16:48:06,975 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-6] Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-07-04 16:48:06,976 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-6] Writing [StatisticsRequest(gotResult=false, error=Empty request)]
+2023-07-04 16:48:06,977 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-6] Completed 200 OK
+2023-07-04 20:45:59,824 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-04 20:45:59,829 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-07-04 20:45:59,832 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
